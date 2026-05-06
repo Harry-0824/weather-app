@@ -26,6 +26,16 @@ AI coding agents working in this repository must follow these project rules.
 - `fix/*`: bug fixes and behavior corrections.
 - `docs/*`: documentation-only changes.
 
+## UI and Design Rules
+
+For UI-related changes, always read and follow `DESIGN.md`.
+
+Do not introduce unrelated visual styles, new UI libraries, or broad redesigns unless explicitly requested by the GitHub Issue.
+
+Each UI task should stay limited to the page, section, or component group described in the Issue.
+
+Do not copy visual references pixel-by-pixel. Use them only as design direction and convert them into maintainable implementation.
+
 ## Weather App Rules
 
 - Never expose weather API keys in source code, logs, screenshots, docs, PR text, or committed files.
